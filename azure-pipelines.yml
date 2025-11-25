@@ -27,3 +27,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: 'docker build -t myapp .'
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'docker build -t intelliq3031.azurecr.io/javaapp .'
