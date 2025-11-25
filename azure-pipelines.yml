@@ -34,4 +34,4 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
-    script: 'docker push intelliq3031.azurecr.io/javaapp .'
+    script: 'docker push intelliq3031.azurecr.io/javaapp'
